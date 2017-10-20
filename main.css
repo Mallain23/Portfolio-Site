@@ -1,0 +1,574 @@
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.down-arrow {
+  text-align: center;
+  vertical-align: bottom;
+  line-height: normal;
+  font-size: 32px;
+
+}
+
+.down-arrow-img {
+  width: 40px;
+  height: 40px;
+
+}
+
+.row {
+  margin: 0px;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.nav-font {
+  color: white;
+  font-family: Arvo;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: #D0D0D0;
+}
+
+.nav>li>a:hover, .nav>li>a:active {
+  background-color: transparent;
+  color: #D0D0D0;
+}
+
+li a:hover {
+  cursor: pointer;
+}
+
+.navbar-collapse .nav-link:hover{
+  background-color: white;
+}
+
+.nav-btn {
+  border: 2px solid black;
+  background-color: white;
+  padding: 3px 5px;
+  margin-top: 12px;
+}
+
+
+.center {
+  text-align: center;
+}
+
+
+.background-section {
+  min-height: 700px;
+  background-image: url(./img/MikeRunV3.jpeg);
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.large-intro {
+  font-size: 36px;
+  color: white;
+}
+
+.small-intro {
+  font-size: 32px;
+  color: white;
+}
+
+
+.about-section, .skills-section, footer{
+  background-color: black;
+}
+
+.skills-heading {
+  color: white;
+  font-family: Arvo;
+}
+
+.portfolio-col {
+  margin-bottom: 50px;
+}
+
+.skills-col, .about-col {
+  margin-bottom: 20px;
+}
+
+.about-heading, .about-text {
+  color: white;
+  font-family: Arvo;
+  margin-top: 15px;
+}
+
+.contact-heading, .contact-text {
+    color: black;
+}
+.about-text, .contact-text {
+  font-size: 24px;
+  line-height: 180%;
+  font-family: Arvo;
+}
+
+.contact-text {
+  text-align: center;
+}
+
+.about-text {
+  text-align: left;
+}
+
+.contact-text-small {
+  font-size: 20px;
+}
+
+.email-text  {
+  font-size: 20px;
+  font-family: Arvo;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: black;
+}
+.para-one {
+  margin-bottom: 30px;
+}
+
+.para-two {
+  margin-bottom: 70px;
+}
+
+.heading-text {
+  font-size: 42px;
+  margin-top: 50px;
+  font-family: Arvo;
+  font-weight: 700px;
+}
+
+.section-col {
+  text-align: center;
+}
+
+.portfolio-section, .contact-section {
+  background-color: white;
+}
+
+
+
+.black-hr {
+  background-color: black;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #ccc;
+  padding: 0;
+  font-weight: 900;
+  font-size: 56px;
+}
+
+.portfolio-text {
+  color: black;
+
+}
+
+.portfolio-box, .portfolio-box-small {
+  border: 2px solid black;
+  margin-bottom: 40px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-box-small {
+  height: 370px;
+  overflow: scroll;
+  position: relative;
+}
+
+.portfolio-box-small:hover {
+  cursor: pointer;
+}
+
+.header-box {
+  background-color: black;
+  text-align: center;
+}
+
+.portfolio-header {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: Arvo;
+  font-weight: 800px;
+  margin-bottom: 5px;
+  margin-right: 25px;
+  display: inline-block;
+}
+
+.portfolio-header-small {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: Arvo;
+  font-weight: 800px;
+  margin-bottom: 20px;
+}
+
+.close-link {
+  font-size: 16px;
+  color: white;
+}
+.app-description, .tools {
+  font-family: Arvo;
+  font-size: 20px;
+  font-weight: 600px;
+  line-height: 200%;
+
+}
+
+.app-description-small {
+  font-family: Arvo;
+  font-size: 16px;
+  font-weight: 600px;
+  line-height: 170%;
+  margin-bottom: none;
+  min-height: 220px;
+
+}
+.description-box, .tools-container {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.portfolio-heading, .proj-link, .tools {
+  color: black;
+}
+
+.tools{
+  text-align: center;
+  margin: 30px;
+}
+
+
+.image-container {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.app-link {
+  cursor: pointer;
+}
+
+.app-picture {
+  border: 1px solid black;
+}
+
+.portfolio-button-container {
+  text-align: center;
+  font-size: 18px;
+}
+
+.portfolio-btn:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid black
+}
+
+.bottom-box {
+  margin-bottom: 70px;
+}
+
+.skill-image {
+  width:  70px;
+  height: 70px;
+}
+
+.wide {
+  width: 90px;
+}
+
+.contact-icons {
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.contact-me-link {
+  margin-right: 10px;
+  height: 100px;
+  width: 100px;
+}
+
+footer {
+  vertical-align: middle;
+}
+
+.footer-text, .footer-name {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: white;
+  font-family: Arvo;
+
+}
+
+.footer-col {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.email-link {
+  color: white;
+}
+.email-link:hover {
+  text-decoration: none;
+}
+
+.arrow-btn-col {
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.back-to-top:hover {
+  background-color: #777;
+}
+
+.skills-image-col {
+text-align: center;
+margin-bottom: 55px;
+}
+
+.skill-name {
+  font-size: 18px;
+  color: white;
+  margin-top: 10px;
+  font-family: Arvo;
+}
+
+.skills-hr,  {
+  width: 60%;
+}
+
+.portfolio-hr {
+  width: 70%;
+}
+
+
+
+.portfolio-btn {
+  font-family: Arvo;
+  font-weight: 600px;
+  font-size: 18px;
+  border: 2px solid black;
+  margin-right: 5px;
+}
+
+.portfolio-button-container {
+  margin-bottom: 25px;
+}
+
+.headshot-container {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 20px;
+}
+
+.headshot {
+  border: 1px solid white;
+}
+
+.about-text-container {
+  margin-left: 35px;
+}
+
+.intro-text {
+  margin-top: 60px;
+  font-family: Arvo;
+  text-align: center;
+
+}
+
+.about-hr {
+  width: 65%;
+}
+
+.upward-arrow {
+  color: white;
+  font-size: 32px;
+  font-weight: 900px;
+  cursor: pointer;
+
+}
+
+.upward-arrow:hover {
+  color: #D0D0D0;
+}
+
+.fa-carrot-up {
+  color: white;
+  background-color: white;
+}
+
+.vacay, .law-student-portal, .more-like-that {
+  display: none;
+
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+  .about-text-container {
+    margin-left: 190px;
+  }
+
+  .about-col {
+    margin-bottom: 20px;
+  }
+
+  /*.large-intro, .small-intro {
+    margin-left: 100px;
+  }*/
+
+  .app-picture {
+    width: 90%;
+    height: 90%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .arrow-btn-col {
+    margin-bottom: 30px;
+  }
+
+
+}
+
+@media only screen and (max-width: 991px) {
+  .about-text-container {
+    margin-left: 0px;
+  }
+  .about-text {
+    text-align: center;
+  }
+
+  .portfolio-box-small {
+    height: 100%;
+  }
+
+  .app-description-small {
+    min-height: 40px;
+  }
+
+  .down-arrow {
+    margin-bottom: 10px;
+  }
+
+  .port-center {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .background-section {
+    background-position: left;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .app-picture {
+    width: 80%;
+    height: 100%;
+  }
+
+  .large-intro {
+    font-size: 32px;
+  }
+
+  .small-intro {
+    font-size: 26px;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .headshot {
+      height: 85%;
+      width: 85%;
+    }
+
+    .portfolio-header {
+      display: block;
+      margin-right: 0px;
+    }
+
+    .upward-arrow {
+      margin-bottom: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+
+    .large-intro {
+      font-size: 26px;
+    }
+
+    .small-intro {
+      font-size: 20px;
+    }
+
+    .demo-btn {
+      margin-top: 10px;
+    }
+}
+
+@-ms-viewport{
+  width: device-width;
+}
+
+@media only screen and (max-width: 410px) {
+    .demo-btn {
+      margin-top: 10px;
+    }
+
+    .app-description, .tools {
+      line-height: 160%;
+    }
+
+    .about-text, .contact-text {
+      line-height: 170%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+
+    .app-description, .tools {
+      line-height: 130%;
+      font-size: 16px;
+    }
+
+    .portfolio-header, .upward-arrow {
+      font-size: 24px;
+    }
+
+    .portfolio-btn {
+      font-size: 14px;
+    }
+
+}
