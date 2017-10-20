@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" media="screen" title="no title" charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+        <link href="hover.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="https://use.fontawesome.com/e56a090e6b.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/color/jquery.color-2.1.2.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <title>Mike's Portfolio Site</title>
+    </head>
+
+    <body>
+        <div class="container-fluid">
+
+        <div class='background-section'>
+            <nav class="navbar navbar-fixed-top">
+                <div class='container'>
+                    <div class="navbar-header">
+                        <a href='#top' class="nav-link navbar-brand nav-font">Michael P Allain</a>
+                        <button type="button" class="navbar-toggle nav-btn" data-toggle="collapse" data-target=".navbar-collapse">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class='nav-list'><a href='#about' class='about pointer nav-font'>About</a></li>
+                            <li class='nav-list'><a href='#portfolio' class="portfolio pointer nav-font">Portfolio</a></li>
+                            <li class='nav-list'><a href='#skills' class="skills pointer nav-font">Skills</a></li>
+                            <li class='nav-list'><a class="contact pointer nav-font" target='_blank' href='./img/Resume PDF.pdf'>Resume</a></li>
+                            <li class='nav-list'><a href='#contact' class="page-scroll contact pointer nav-font">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <section class='row intro-row' id='top'>
+                <div class='col-xs-12 intro-text'>
+                    <h3 class='large-intro'>Michael Allain</h3>
+                    <p class='small-intro'> Web Developer | Problem Solver | Dream Chaser</p>
+                </div>
+            </section>
+        </div>
+
+        <section class='about-section'id='about'>
+            <div class='container'>
+                <div class='row'>
+                    <div class='col-xs-12 col-md-4'>
+                    </div>
+                    <div class='col-xs-12 col-md-4 about-col section-col'>
+                        <h3  class='heading-text about-heading'>About</h3>
+                        <hr class='about-hr'>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-sm-12 col-md-3 col-lg-4 headshot-container'>
+                        <img class='headshot' src='./img/MikeHeadshot3.png' />
+                    </div>
+                    <div class='col-sm-12 col-md-6 col-lg-7 about-text-container'>
+                        <p class='about-text para-one'>
+                            I am a web developer and problem solver based out of Atlanta, Georgia. I recently graduated from the Full Stack Web Development Career Path bootcamp at
+                            <a href='https://www.thinkful.com/'>Thinkful</a>.
+                            I love coding because I enjoy using logic and technology to solve real world problems. From identifying the process your product aims to streamline, to trouble-shooting errors in the code and functionality -
+                            solving problems with coding leaves me extremly satisfied and fulfilled!
+                        </p>
+                        <p class='about-text para-two'>When I am not developing, I can be found jogging on the Atlanta Beltline, enjoying music at a music festival or local music venue, or
+                          traveling to new places with family and friends!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class='portfolio-section' id='portfolio'>
+            <div class=container>
+                <div class='row'>
+                    <div class='col-xs-12 col-md-4'>
+                    </div>
+                    <div class='col-xs-12 col-md-4 section-col portfolio-col'>
+                        <h3  class='heading-text portfolio-heading'>Portfolio</h3>
+                        <hr class='hr black-hr'>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='port-collapse-cotainer'>
+                        <div class='col-xs-12 col-md-4 port-center'>
+                            <div id='vacay' class='portfolio-box-small hvr-box-shadow-outset'>
+                                <div class='header-box'>
+                                    <p class='portfolio-header-small'>Vacay Away</p>
+                                </div>
+                                <div class='description-box'>
+                                    <p class='app-description-small'>Vacay Away is a fullstack JavaScript app, where users can create an account, login, and search for ideas to help them plan their perfect vacation.</p>
+                                </div>
+                                <div class='down-arrow'>
+                                    <i class="fa fa-arrow-down fa-fw" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-xs-12 col-md-4 port-center'>
+                            <div class='portfolio-box-small hvr-box-shadow-outset' id='law-student-portal'>
+                                <div class='header-box'>
+                                      <p class='portfolio-header-small'>Law Student Portal</p>
+                                </div>
+                                <div class='description-box'>
+                                    <p class='app-description-small'>The Law Student Portal is a fullstack JavaScript app. It is a studyguide and resource database meant to help law students prepare for their final exams.</p>
+                                </div>
+                                <div class='down-arrow'>
+                                      <i class="fa fa-arrow-down fa-fw" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-xs-12 col-md-4 port-center'>
+                            <div class='portfolio-box-small hvr-box-shadow-outset' id='more-like-that'>
+                                <div class='header-box'>
+                                      <p class='portfolio-header-small'>More Like That!</p>
+                                </div>
+                                <div class='description-box'>
+                                    <p class='app-description-small'>More Like That is a frontend JavaScript based application that allows a user to search for and discover new music, movies, books, and games.</p>
+                                </div>
+                                <div class='down-arrow'>
+                                    <i class="fa fa-arrow-down fa-fw" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='col-xs-12'>
+                        <div class='vacay portfolio-box'>
+                            <div class='header-box'>
+                                <p class='portfolio-header'>Vacay Away</p>
+                                <span class='upward-arrow'><i class="fa fa-arrow-up fa-fw" aria-hidden="true"></i></span>
+                            </div>
+                            <div class='description-box'>
+                                <p class='app-description'>Vacay Away is a fullstack JavaScript app, where users can create an account, login, and search for ideas to help them plan their perfect vacation. The app has a built in search feature, and allows users to add posts to their favorites for convenience.</p>
+                            </div>
+                            <div class='image-container'>
+                                <a class='app-link' target='_blank' href='https://designer-tapir-81850.netlify.com'>
+                                    <img class='app-picture' src='./img/VacayAwayV2.png'/>
+                                </a>
+                            </div>
+                            <div class='tools-container'>
+                                <p class='tools'>React with Redux, ES6, Enzyme, Node.js, Express, Mongo DB, Mongoose, Mocha, Chai, Webpack, HTML5, CSS3, Bootstrap</p>
+                            </div>
+                            <div class='portfolio-button-container'>
+                                <a class='btn btn-default btn-md portfolio-btn' href='https://github.com/Mallain23/vacation-app-react-capstone' target='_blank' class='proj-link' >Repo (F.E.)</a>
+                                <a class='btn btn-default btn-md portfolio-btn' href='https://github.com/Mallain23/vacation-app-server' target='_blank' class='proj-link' >Repo (B.E.)</a>
+                                <a class='btn btn-default btn-md portfolio-btn demo-btn' href='https://designer-tapir-81850.netlify.com'target='_blank' class='proj-link' >Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='row'>
+                    <div class='col-sm-12'>
+                        <div class='portfolio-box law-student-portal'>
+                            <div class='header-box'>
+                                <p class='portfolio-header'>Law Student Portal</p>
+                                <span class='upward-arrow'><i class="fa fa-arrow-up fa-fw" aria-hidden="true"></i></span>
+                            </div>
+                            <div class='description-box'>
+                                <p class='app-description'>The Law Student Portal is a fullstack JavaScript app. It is a studyguide and resource database meant to help law students prepare for their final exams.</p>
+                            </div>
+                            <div class='image-container'>
+                                <a class='app-link' href='https://pure-temple-61488.herokuapp.com/' target='_blank' ><img class='app-picture' src='./img/LawPortalV2.png'/></a>
+                          </div>
+                          <div class='tools-container'>
+                              <p class='tools'>jQuery, Node.js, Express, MongoDB, Mongoose, Mocha, Chai, HTML5, CSS3, Bootstrap</p>
+                        </div>
+                        <div class='portfolio-button-container'>
+                            <a class='btn btn-default btn-md portfolio-btn' href='https://github.com/Mallain23/nodeCapstone' target='_blank' class='proj-link' >Repo</a>
+                            <a class='btn btn-default btn-md portfolio-btn' href='https://pure-temple-61488.herokuapp.com/' target='_blank' class='proj-link' >Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col-sm-12'>
+                      <div class='portfolio-box more-like-that bottom-box'>
+                          <div class='header-box'>
+                              <p class='portfolio-header'>More Lke That!</p>
+                              <span class='upward-arrow'><i class="fa fa-arrow-up fa-fw" aria-hidden="true"></i></span>
+                          </div>
+                          <div class='description-box'>
+                              <p class='app-description'>More Like That is a frontend JavaScript based application that allows a user to search for and discover new music, movies, books, and games.</p>
+                          </div>
+                          <div class='image-container'>
+                              <a href='http://allain-capstone.surge.sh/' class='app-link' target='_blank' class='proj-link' >
+                                  <img class='app-picture' src='./img/MoreLikeThatV2.png'/>
+                              </a>
+                          </div>
+                          <div class='tools-container'>
+                              <p class='tools'>jQuery, HTML5, CSS3, TasteDive API, Youtube API, Wikipedia API</p>
+                          </div>
+                          <div class='portfolio-button-container'>
+                              <a class='btn btn-default btn-md portfolio-btn' href='https://github.com/Mallain23/First-Capstone' target='_blank' class='proj-link' >Repo</a>
+                              <a class='btn btn-default btn-md portfolio-btn' href='http://allain-capstone.surge.sh/'target='_blank' class='proj-link' >Demo</a>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class='skills-section' id='skills'>
+            <div class='container'>
+                <div class='row'>
+                    <div class='col-xs-12 col-md-4'>
+                    </div>
+                    <div class='col-xs-12 col-md-4 section-col skills-col'>
+                        <h3  class='heading-text skills-heading'>Skills</h3>
+                        <hr class='black-hr skills-hr'><br>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-xs-12 col-sm-6 col-md-3 skills-image-col'>
+                        <img class='skill-image' src='./img/js.png'>
+                        <p class='skill-name'>JavaScript</p>
+                    </div>
+                    <div class='col-xs-12 col-sm-6 col-md-3 skills-image-col'>
+                        <img class='skill-image' src='./img/jqueryv3.png'>
+                        <p class='skill-name'>jQuery</p>
+                    </div>
+                    <div class='col-xs-12 col-sm-6 col-md-3 skills-image-col'>
+                        <img class='skill-image' src='./img/reactv4.jpg'>
+                        <p class='skill-name'>React</p>
+                    </div>
+                    <div class='col-xs-12 col-sm-6 col-md-3 skills-image-col'>
+                        <img class='skill-image' src='./img/HTML5_Logo_512.png'>
+                        <p class='skill-name'>HTML5</p>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-xs-12 col-sm-6 col-md-3 skills-image-col skills-image-col'>
+                        <img class='skill-image' src='./img/bootstrap.png'>
+                        <p class='skill-name'>Bootstrap</p>
+                    </div>
+                    <div class='col-xs-12 col-sm-6 col-md-3 skills-image-col skills-image-col'>
+                        <img class='skill-image' src='./img/node.svg'>
+                        <p class='skill-name'>Node.js</p>
+                    </div>
+                    <div class='col-xs-12 col-sm-6 col-md-3 skills-image-col skills-image-col'>
+                        <img class='skill-image' src='./img/git.png'>
+                        <p class='skill-name'>Git</p>
+                    </div>
+                    <div class='col-xs-12 col-sm-6 col-md-3 skills-image-col skills-image-col'>
+                        <img class='skill-image' src='./img/css.png'>
+                        <p class='skill-name'>CSS3</p>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-xs-12 col-sm-6 col-md-3 skills-image-col'>
+                        <img class='skill-image' src='./img/mongodb.png'>
+                        <p class='skill-name'>MongoDB</p>
+                    </div>
+                    <div class='col-xs-12 col-sm-6 col-md-3 skills-image-col'>
+                        <img class='skill-image' src='./img/ajax.png'>
+                        <p class='skill-name'>Ajax</p>
+                    </div>
+                    <div class='col-xs-12 col-sm-6 col-md-3 skills-image-col'>
+                        <img class='skill-image wide' src='./img/004-express-js.png'>
+                        <p class='skill-name'>Express</p>
+                    </div>
+                    <div class='col-xs-12 col-sm-6 col-md-3 skills-image-col'>
+                        <img class='skill-image' src='./img/mocha.png'>
+                        <p class='skill-name'>Mocha/Chai</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class='contact-section' id='contact'>
+            <div class='container'>
+                <div class='row'>
+                    <div class='col-xs-12 col-md-4'></div>
+                    <div class='col-xs-12 col-md-4 section-col contact-col'>
+                        <h3  class='heading-text contact-heading'>Let's Talk!</h3>
+                        <hr class='hr black-hr'><br>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-xs-12 col-md-2'></div>
+                      <div class='col-xs-12 col-md-8'>
+                          <p class='contact-text'>Reach out about working together, or let's talk about code, new opporunities, and anything else on your mind!</p>
+                      </div>
+                  </div>
+                  <div class='row'>
+                      <div class='col-xs-12 center'>
+                          <p class='email-text'>
+                              <span class='email-non-link'>By Email:</span>
+                              <a href='mailto:mallain23@gmail.com' data='_blank'>Mallain23@gmail.com</a>
+                          </p>
+                      </div>
+                  </div>
+                  <div class='row'>
+                      <div class='col-xs-12 center'>
+                          <p class='contact-text contact-text-small'>Or say hi on social media:</p>
+                      </div>
+                  </div>
+                  <div class='row'>
+                      <div class='col-xs-12 center contact-icons'>
+                          <a class='contact-me-link' href="https://www.linkedin.com/in/michaelallain/" target="_blank "><i class="fa fa-2x fa-linkedin"></i></a>
+                          <a class='contact-me-link' href="https://www.github.com/mallain23" target="_blank"><i class="fa fa-2x fa-github"></i></a>
+                          <a class='contact-me-link' href="https://plus.google.com/u/0/117505828708678704123" target="_blank "><i class="fa fa-2x fa-google-plus-square"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </section>
+
+          <footer class='footer' role="content-info">
+              <div class='row'>
+                  <div class='col-xs-2 col-md-4'></div>
+                  <div class='col-xs-7 col-md-4 footer-col'>
+                      <p class='footer-text'>
+                           ©2017 | <span class='footer-name'><a class='email-link' href='mailto:mallain23@gmail.com' target='_blank'>Michael P Allain</a></span>
+                      </p>
+                  </div>
+                  <div class='col-xs-2 col-md-4 arrow-btn-col'>
+                      <a href="#top" class="page-scroll back-to-top btn btn-default btn-md">
+                          <i class="fa fa-arrow-up fa-fw" aria-hidden="true"></i>
+                      </a>
+                  </div>
+              </div>
+          </footer>
+      </div>
+
+      <script src='script.js'></script>
+  </body>
+</html>
